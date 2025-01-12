@@ -1,0 +1,5 @@
+Grafo,Tamanho do Grafo (arestas),Tempo Total de Execução (segundos)
+grafo1.edgelist,50,0.001293
+grafo2.edgelist,100,0.000439
+grafo3.edgelist,150,0.000689
+grafo4.edgelist,200,0.000800

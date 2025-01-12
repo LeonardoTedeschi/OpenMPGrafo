@@ -1,0 +1,5 @@
+Grafo,Threads,Tempo Sequencial (segundos),Tempo Paralelo (mais lento) (segundos)
+grafo1.edgelist,2,0.001232,0.000060
+grafo2.edgelist,4,0.000295,0.000144
+grafo3.edgelist,6,0.000366,0.000323
+grafo4.edgelist,8,0.000405,0.000395

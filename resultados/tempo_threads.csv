@@ -1,0 +1,6 @@
+Grafo,Threads,Tempo (segundos)
+grafo1.edgelist,2,0.001293
+grafo2.edgelist,4,0.000439
+grafo3.edgelist,6,0.000689
+grafo4.edgelist,8,0.000800
+

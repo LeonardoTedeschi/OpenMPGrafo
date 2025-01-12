@@ -1,0 +1,6 @@
+Grafo,Threads,Tempo_OpenMP (segundos),Tempo_Treads (segundos)
+grafo1.edgelist,2,0.001293,0.001549
+grafo2.edgelist,4,0.000439,0.001250
+grafo3.edgelist,6,0.000689,0.001303
+grafo4.edgelist,8,0.000800,0.002295
+

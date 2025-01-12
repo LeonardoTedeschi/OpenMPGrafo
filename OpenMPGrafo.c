@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <omp.h>
+#include <math.h>
 
 // Função para inicializar uma lista de adjacência
 int **inicializar_lista_adjacencia(int num_vertices) {
@@ -156,16 +157,6 @@ int main(int argc, char *argv[]) {
 
     printf("Arquivo gerado com sucesso: %s\n", arquivo_saida);
 
-    // Criar arquivo CSV para gráficos
-    FILE *csv_saida = fopen("resultados.csv", "w");
-    fprintf(csv_saida, "Thread,Tempo (segundos)\n");
-    for (int i = 0; i < num_threads; i++) {
-        fprintf(csv_saida, "%d,%.6f\n", i, tempos_threads[i]);
-    }
-    fprintf(csv_saida, "Tempo total da parte paralela,%.6f\n", tempo_paralelo_max);
-    fprintf(csv_saida, "Tempo total da parte sequencial,%.6f\n", tempo_sequencial_total);
-    fprintf(csv_saida, "Tempo total de execução,%.6f\n", tempo_paralelo_max + tempo_sequencial_total);
-    fclose(csv_saida);
-
     return 0;
+
 }
